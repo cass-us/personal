@@ -27,7 +27,7 @@ const NavBar = () => {
           <h2 className="font-bold  tracking-wide text-red-500">
         <a href="/">
         FUTURE<span className="text-white">SCORE</span>
-        < BoltIcon className='bg-'/>
+        < BoltIcon className='text-red-500'/>
         </a>
         
           </h2>
