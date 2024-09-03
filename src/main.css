@@ -1,0 +1,19 @@
+@keyframes fadeSlide {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  
+  .fade-slide-animation {
+    animation: fadeSlide 4s infinite; /* Adjust the duration and add infinite to loop the animation */
+  }
+  
