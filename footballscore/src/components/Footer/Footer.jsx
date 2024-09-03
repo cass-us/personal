@@ -1,6 +1,8 @@
 const Footer = () => {
     return (
-      <footer className="grid grid-cols-3 gap-4 bg-black opacity-90 p-6">
+        
+        <section className=" bg-black opacity-90 p-6">
+            <footer className="grid grid-cols-3 gap-4">
         <section>
           <h2 className="text-red-600 underline font-semibold mb-4">Our Services</h2>
           <ul className="space-y-2">
@@ -35,7 +37,15 @@ const Footer = () => {
         </section>
   
         <hr className="col-span-3 my-4 border-gray-600" />
+        
       </footer>
+      <p className="bg-black text-white opacity-80 text-center">
+      &copy; 2023 TeamTech'z. All Rights Reserved.
+      </p>
+        </section>
+        
+        
+      
     );
   }
   
