@@ -59,7 +59,9 @@ const NavBar = () => {
 
     return (
       <div className="relative w-full h-[calc(100vh-20rem)] bg-black">
-        {/* Full-width images with number and caption text */}
+       
+
+       
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -76,7 +78,7 @@ const NavBar = () => {
           </div>
         ))}
 
-        {/* Next and previous buttons */}
+       
         <button className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white" onClick={prevSlide}>
           &#10094;
         </button>
@@ -84,7 +86,8 @@ const NavBar = () => {
           &#10095;
         </button>
 
-        {/* The dots/circles */}
+       
+
         <div className="absolute bottom-8 right-4">
           {slides.map((_, index) => (
             <span
@@ -97,7 +100,8 @@ const NavBar = () => {
           ))}
         </div>
 
-        {/* Additional Caption Below the Slideshow */}
+      
+
         <div className="absolute inset-x-0 bottom-4 flex justify-center">
           <button className='bg-red-500 rounded-md p-2 m-2  text-white '><a href="https://docs.google.com/forms/d/e/1FAIpQLSePQG76G4cTfSnZmFifj-XgJTpWA4xHdN_NW_sLD67_8OmaQA/viewform?pli=1">Join Membership</a></button>
         </div>
